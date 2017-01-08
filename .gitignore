@@ -1,0 +1,7 @@
+packages
+packages.info
+*.o
+o
+makefiles
+bin
+etc

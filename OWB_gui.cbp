@@ -1,0 +1,35 @@
+<?xml version="1.0" ?>
+<CodeBench_Project name="OWB_gui" path="Programs:Programming/workspace/MyProjects/OWB_gui/OWB_gui.cbp" created="1014324639" lastmodified="1014325204">
+	<plugin name="PROGDIR:Plugins/AmigaOS4SDK.CCPlugin" flags="0"/>
+	<label identifier="////"/>
+	<target name="owb_gui" run=""/>
+	<homedir name="Programs:Programming/workspace/MyProjects/OWB_gui"/>
+	<includedir name="Programs:Programming/workspace/MyProjects/OWB_gui"/>
+	<compiler name="SDK:gcc/bin/gcc" switches="" stack="131072"/>
+	<linker switches="-lauto -lraauto"/>
+	<debugger name="SDK:c/gdb"/>
+	<header pattern="#?.(h|hpp|hxx)"/>
+	<source pattern="#?.(c|cpp|cc|cxx)"/>
+	<object pattern="#?.(o|lib|a)"/>
+	<other pattern="~(#?.h|#?.c|#?.cpp|#?.cc|#?.cxx|#?.o|#?.lib|#?.a)"/>
+	<builder name="SDK:c/make -f"/>
+	<headers>
+		<file name="globals.h" current="0" open="1"/>
+		<file name="gui.h" current="0" open="0"/>
+		<file name="includes.h" current="0" open="0"/>
+	</headers>
+	<sources>
+		<file name="events.c" current="0" open="0"/>
+		<file name="gui.c" current="0" open="0"/>
+		<file name="handlelibraries.c" current="0" open="0"/>
+		<file name="lists.c" current="0" open="0"/>
+		<file name="main.c" current="0" open="1"/>
+		<file name="OWB_gui.c" current="0" open="0"/>
+		<file name="usercode.c" current="1" open="1"/>
+	</sources>
+	<flags value="1"/>
+	<buildscript name="Makefile" depth="3" open="0"/>
+	<projectnotes open="0"/>
+	<buildwindow open="0"/>
+	<logfile name="RAM Disk:Build.log"/>
+</CodeBench_Project>
