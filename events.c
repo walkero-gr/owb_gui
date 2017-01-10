@@ -22,7 +22,7 @@ void Events( void )
 		{
 			done = TRUE;
 		}
-    	else
+    		else
 		{
 			while((result = RA_HandleInput(obj[OID_WindowObject1], &code)) != WMHI_LASTMSG)
 			{
